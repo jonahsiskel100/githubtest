@@ -6,6 +6,9 @@ void setup() {
 }
 
 void loop() {
+  sequence();
+}
+void sequence() {
   digitalWrite(ledPin100, HIGH);
   digitalWrite(ledPin500, HIGH);
   delay(100);
